@@ -1,6 +1,6 @@
 # bing-news-ticker
 
-Welcome to `bing-news-ticker`! This project provides a scrolling ticker that displays the latest news fetched from the Bing Search API. Serve up a continuous stream of the latest headlines right on your screen!
+Welcome to `bing-news-ticker`! This project provides a scrolling ticker that displays the latest news fetched from the Bing Search API.
 
 ## Features
 
@@ -59,6 +59,10 @@ Before you begin, ensure you have met the following requirements:
   ```bash
   python3 loop.py
   ```
+
+## Need More Information?
+
+For more information on how to use the Bing News API, check out the YouTube video: [**Partly Cloudy: Hello News (Intro, project structure, and HTTP requests)**](https://www.youtube.com/watch?v=89ijb6NuQ-E)
 
 ## License
 
