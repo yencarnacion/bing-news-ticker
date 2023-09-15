@@ -41,7 +41,7 @@
 </div>
 <script>
 $(document).ready(function() {
-  axios.get('http://192.168.177.150:8000/headlines.json')
+  axios.get('http://192.168.177.150:8080/headlines.json')
     .then(function (response) {
       let news = response.data.map(item => `<a href="${item.url}" target="_blank">${item.name} (${item.provider})</a> - ${item.description} - <a href="${item.url}" target="_blank">(link)</a>`);
       $('#news').html(news.join(' | ')).marquee({

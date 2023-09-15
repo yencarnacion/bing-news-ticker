@@ -1,0 +1,6 @@
+env.py
+delete
+ignore
+__pycache__
+ttn.txt
+headlines.json
